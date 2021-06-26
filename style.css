@@ -1,0 +1,257 @@
+.he {
+    color: black;
+    font-size: 70px;
+    margin: 0;
+    padding-top: 60px;
+    font-style: oblique;
+}
+
+.b1 {
+    width: 15%;
+    float: left;
+    padding-left: 50px;
+}
+
+.b2 {
+    width: 15%;
+    float: right;
+    padding-right: 50px;
+}
+
+.heading {
+    background-color: rgb(204, 54, 34);
+    height: 190px;
+}
+
+.n {
+    float: left;
+    background-color: rgb(204, 54, 34);
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.n .ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.n li {
+    float: left;
+    margin-left: 70px;
+    font-size: 30px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.p {
+    width: 15%;
+    font-size: 40px;
+    height: 42rem;
+    background-color: rgb(236, 114, 27);
+    float: left;
+    font-style: italic;
+}
+
+p {
+    margin-top: 45px;
+    padding-left: 10px;
+}
+
+.p1 {
+    float: right;
+    height: 42rem;
+    background-color: honeydew;
+    width: 85%;
+    font-size: 5rem;
+    font-style: oblique;
+}
+
+.sp {
+    padding-top: 0;
+    margin-top: 0;
+    color: darkred;
+}
+
+.sp1 {
+    margin-top: 0;
+    padding-top: 0;
+    color: darkred;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(204, 54, 34);
+    background: rgb(236, 114, 27);
+    box-shadow: 0 0 20px rgb(236, 114, 27), 0 0 80px rgb(236, 114, 27), 0 0 160px rgb(236, 114, 27);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(236, 114, 27);
+    position: absolute;
+    transition: ease-in-out 250ms;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+.m1 {
+    background-color: rgb(236, 114, 27);
+    width: 25%;
+    height: 42.5rem;
+    float: left;
+    margin-top: 1px;
+}
+
+.m2 {
+    background-color: rgb(204, 54, 34);
+    width: 25%;
+    height: 42.5rem;
+    float: left;
+    margin-top: 1px;
+}
+
+.m3 {
+    background-color: rgb(236, 114, 27);
+    width: 25%;
+    height: 42.5rem;
+    float: left;
+    margin-top: 1px;
+}
+
+.m4 {
+    background-color: rgb(204, 54, 34);
+    width: 25%;
+    height: 42.5rem;
+    float: left;
+    margin-top: 1px;
+}
+
+.ul1 {
+    float: left;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.ul11 {
+    float: right;
+    list-style: none;
+}
+
+.ul1 li {
+    font-size: 20px;
+}
+
+.ul11 li {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.biryani {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.sf {
+    margin-top: 15rem;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.v {
+    margin-top: 11rem;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.d {
+    margin-top: 17rem;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.ij {
+    margin-top: 14rem;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.i {
+    background-color: rgb(236, 114, 27);
+    width: 100%;
+    height: 47.5rem;
+}
+
+.nc {
+    font-size: 25px;
+}
+
+.ln {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.ul2 {
+    list-style: none;
+    float: left;
+    padding-left: 40rem;
+}
+
+.address {
+    height: 100px;
+    font-size: 25px;
+    resize: none;
+    width: 19.8rem;
+}
+
+.ul2 li {
+    font-size: 45px;
+}
+
+.add * {
+    vertical-align: top;
+}
+
+.po {
+    height: 150px;
+    font-size: 25px;
+    resize: none;
+    width: 19.8rem
+}
+
+.placeo {
+    width: 10rem;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(204, 54, 34);
+    color: rgb(236, 114, 27);
+}
+
+.about {
+    background-color: rgb(236, 114, 27);
+    width: 100%;
+    height: 47rem;
+}
+
+.aadd {
+    background-color: rgb(204, 54, 34);
+    width: 70%;
+    height: 30rem;
+    float: left;
+    margin: 6rem 17rem;
+}
+
+.c {
+    font-size: 50px;
+}

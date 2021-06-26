@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Arshad's Biryani Paradise</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="heading">
+      <img class="b1" src="/images (22).jpeg" />
+      <img class="b2" src="/images (23).jpeg" />
+      <h1 class="he" align="center">Place Order</h1>
+      <nav class="n" align="left">
+        <ul class="ul">
+          <li><a href="/hotel.html">Home</a></li>
+          <li><a href="/Menu.html">Menu</a></li>
+          <li><a href="#">Place Order</a></li>
+          <li><a href="/Contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="i">
+      <ul class="ul2" align="right">
+        <li>
+          <label for="textarea"
+            >Name: <input id="nam" type="text" class="nc"
+          /></label>
+        </li>
+        <li>
+          <p class="add">
+            <label class="ad">Address: </label>
+            <textarea id="addr" class="address" type="text"></textarea>
+          </p>
+        </li>
+        <li>
+          <label>Phone no: <input id="num" type="number" class="nc" /></label>
+        </li>
+        <li>
+          <p class="add">
+            <label class="ad">Place Order: </label>
+            <textarea id="porder" class="po" type="text"></textarea>
+          </p>
+        </li>
+        <li align="center">
+          <input
+            onclick="placeorder()"
+            type="button"
+            value="Place Order"
+            class="placeo"
+          />
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
